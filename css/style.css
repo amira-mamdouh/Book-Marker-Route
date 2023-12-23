@@ -1,0 +1,92 @@
+/* font-family: 'Pacifico', cursive;
+font-family: 'PT Sans Caption', sans-serif;
+font-family: 'Righteous', sans-serif; */
+
+html {
+  font-size: 16px;
+}
+
+main {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../imgs/bg.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: "PT Sans Caption", sans-serif;
+  min-height: 100vh;
+}
+
+h1 {
+  font-family: "Pacifico", cursive;
+  font-size: 6rem;
+}
+
+.heading p {
+  background-image: linear-gradient(to right, #72432e, #ad8c63);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-family: "Righteous", sans-serif;
+  font-size: 1.75rem;
+}
+
+label i {
+  color: #ad8c63;
+}
+
+.front button {
+  background-color: #ad8c63;
+  color: #fff;
+  padding: 8px 25px;
+  border: 1px solid #ad8c63;
+  /* transition: 0.3s all ease-in; */
+  border-radius: 0.625rem;
+  margin-top: 8px;
+}
+
+.front button:hover {
+  color: #ad8c63;
+  background-color: transparent;
+  border: 1px solid #ad8c63;
+}
+
+.form-control:focus {
+  border-color: #ad8c63;
+  box-shadow: #ad8c63 0px 0px 0px 0.125rem;
+}
+
+.warning p {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+.warning i {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  html {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 540px) {
+  html {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 452px) {
+  html {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 386px) {
+  html {
+    font-size: 8px;
+  }
+}
+@media screen and (max-width: 300px) {
+  html {
+    font-size: 5px;
+  }
+}
